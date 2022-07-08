@@ -1,5 +1,3 @@
-package test;
-
 import org.junit.After;
 import org.junit.Test;
 import pageObject.LoginPage;

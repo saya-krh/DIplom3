@@ -1,5 +1,3 @@
-package test;
-
 import com.codeborne.selenide.Selenide;
 import org.junit.Before;
 import pageObject.LoginPage;
@@ -35,7 +33,7 @@ public class BaseTest {
 //        Uncomment to use Yandex Browser
 //        System.setProperty("webdriver.chrome.driver", "src/test/resources/yandexdriver.exe");
 
-        System.setProperty("selenide.browser", "chrome");
+        System.setProperty("selenide.browser", "yandex");
 
         mainPage = open(STELLAR_BURGERS_MAIN_PAGE, MainPage.class);
 

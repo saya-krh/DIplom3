@@ -1,12 +1,7 @@
-package test;
-
 import com.codeborne.selenide.WebDriverRunner;
 import org.junit.After;
 import org.junit.Test;
-import pageObject.LoginPage;
-import pageObject.MainPage;
-import pageObject.RestorePasswordPage;
-import pageObject.SignUpPage;
+import pageObject.*;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.page;
